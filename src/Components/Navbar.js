@@ -19,7 +19,8 @@ export default function Navbar(props) {
     <div style={{color:props.mode}}>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode==='light'?'light':'dark'} bg-${props.mode==='light'?'light':'dark'}`}>
         <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/"> 
+        {/* gitcomment */}
         {props.title}
         </Link>
         <button
