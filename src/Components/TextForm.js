@@ -30,7 +30,7 @@ export default function TextForm(props) {
     <div className="container">
       <form>
         <div className="form-group">
-          <h1>Enter text to analyse</h1>
+          <h1>ENTER TEXT</h1>
           <textarea style={props.mode==='dark'?{backgroundColor:"#17232f", borderColor:"white",color:"white"}:{backgroundColor:"white", borderColor:"#17232f",color:"#17232f"}} value={text} className="form-control" id="TextArea" rows="3" onChange={onChangeHandler}></textarea>
         </div>
       </form>
